@@ -20,8 +20,7 @@ public class RemoveProduct {
             if (choose.equalsIgnoreCase("back")) {
                 System.out.println("go back");
             } else {
-                //name must be character
-                while(!choose.matches("[a-zA-Z\\s]+")){
+                while(!choose.matches("[a-zA-Z\\s\\d]+")){
                     System.out.println("Invalid input, please try again");
                     choose = NewScanner.nextLine();
                 }
