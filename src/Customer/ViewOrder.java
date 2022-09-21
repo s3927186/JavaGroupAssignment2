@@ -130,8 +130,8 @@ public class ViewOrder {
             }
         }else if (getTotal() > 10000000){
             System.out.println("""
-                    You are qualified to get GOld membership
-                     with Platinum membership you will get 10% discount for every product purchased
+                    You are qualified to get Gold membership
+                     with Gold membership you will get 10% discount for every product purchased
                      Do you want to proceed? yes/no""");
             ans = scanner3.nextLine();
             while (!ans.matches("[a-zA-Z]+")) {
@@ -193,7 +193,7 @@ public class ViewOrder {
         }else if (getTotal() > 5000000){
             System.out.println("""
                     You are qualified to get Silver membership
-                     with Platinum membership you will get 5% discount for every product purchased
+                     with Silver membership you will get 5% discount for every product purchased
                      Do you want to proceed? yes/no""");
             ans = scanner3.nextLine();
             while (!ans.matches("[a-zA-Z]+")) {
